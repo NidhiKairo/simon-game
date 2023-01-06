@@ -1,7 +1,3 @@
 # simon-game
 
-# Firstly, the game shows the first colour in the sequence (blue). The user clicks on the blue button.
-
-# Next, the game shows the next colour (red), the user has to remember the sequence is blue, red and so on and so forth.
-
-# If the user messes up the sequence, then the game ends.
+To define a game in which the user must click on a series of buttons that light up in a specific pattern. The buttons are identified by the colors "red," "blue," "green," and "yellow." The game has levels, and the game begins when the user presses a key. When the user clicks on a button, the script pushes the button's color to an array of the user's clicked buttons. The script then compares the last button in the user's array to the corresponding button in the game's pattern array, and if they match, the script continues to the next level. If they do not match, the script plays a sound, displays a "game over" message, and restarts the game. The script also includes functions to animate button presses, play sounds, and start the game over.
